@@ -1,4 +1,4 @@
-@extends('layouts/app')
+@extends('layouts.app')
 
 @section('content')
   <div class="container">
@@ -19,7 +19,6 @@
               <td>{{$product->id}}</td>
               <td>{{$product->name}}</td>
               <td>{{$product->type}}</td>
-              <td>{{$product->size}}</td>
               <td>{{$product->color}}</td>
               <td>{{$product->price}}</td>
             </tr>
@@ -29,3 +28,5 @@
     </div>
   </div>
 @endsection
+
+@section('page-title', 'Products Details')
